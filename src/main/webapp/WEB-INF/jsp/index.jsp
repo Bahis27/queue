@@ -9,7 +9,7 @@
 
 </head>
 <body onload="Init()">
-<div id="head" style="align-content: left">
+<div id="head" style="align-content: center">
     <img id=img_logo"" src="../static/img/Logo.png" style="width: 40%; height: 100%;">
     <p id="now_date" style="text-align: right;">21.08.2020</p>
     <p id="now_time" style="text-align: right">17:32:54</p>
