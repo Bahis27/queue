@@ -32,6 +32,18 @@ public class Item {
     @Column(name = "codestatus")
     private int codeStatus;
 
+    @OneToOne(optional = false, cascade = CascadeType.ALL)
+    @JoinColumn(name = "employeeid")
+    private Estimation estimation;
+
+    public Estimation getEstimation() {
+        return estimation;
+    }
+
+    public void setEstimation(Estimation estimation) {
+        this.estimation = estimation;
+    }
+
     public int getId() {
         return id;
     }

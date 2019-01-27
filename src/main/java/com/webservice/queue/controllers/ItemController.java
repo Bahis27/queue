@@ -25,4 +25,10 @@ public class ItemController {
         return mv;
     }
 
+    @RequestMapping(value = "/feedback")
+    public ModelAndView showFeedBack() {
+        ModelAndView mv = new ModelAndView("feedback");
+        return mv;
+    }
+
 }

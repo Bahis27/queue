@@ -69,83 +69,105 @@
 <table id="________01" border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%">
     <tr>
         <td colspan="5">
-            <img src="${pageContext.request.contextPath}../../../images/01.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/01.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="5">
-            <img src="${pageContext.request.contextPath}../../../images/02.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/02.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="2" rowspan="2">
-            <img src="${pageContext.request.contextPath}../../../images/03.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/03.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
         <td>
-            <img src="${pageContext.request.contextPath}../../../images/04.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/04.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
         <td colspan="2" rowspan="2">
-            <img src="${pageContext.request.contextPath}../../../images/05.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/05.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td>
-            <img src="${pageContext.request.contextPath}../../../images/06.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/06.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td rowspan="10">
-            <img src="${pageContext.request.contextPath}../../../images/07.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/07.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
         <td colspan="3" class='talon_no'>
-            <img src="${pageContext.request.contextPath}../../../images/08.gif" style="width: 100%; height: 100%" alt="" title="1">
+            <img src="${pageContext.request.contextPath}../../../images/08.gif" style="width: 100%; height: 100%" alt=""
+                 title="1">
             <span id="talon_no"> ${dto.getTalonCode()} ${dto.getTalonNumber()} </span>
         </td>
         <td rowspan="10">
-            <img src="${pageContext.request.contextPath}../../../images/09.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/09.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/10.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/10.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/11.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/11.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/12.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/12.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3" class='time_info'>
-            <img src="${pageContext.request.contextPath}../../../images/13.gif" style="width: 100%; height: 100%" alt="">
-            <span id="waiting_time">${dto.getAverageTime() * dto.getInFront()}</span>
+            <img src="${pageContext.request.contextPath}../../../images/13.gif" style="width: 100%; height: 100%"
+                 alt="">
+            <span id="waiting_time">${dto.getAverageTime() * dto.getInFront()} мин.</span>
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/14.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/14.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/15.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/15.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/16.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/16.gif" style="width: 100%; height: 100%"
+                 alt=""></td>
     </tr>
     <tr>
         <td colspan="3" class="user_info">
-            <img src="${pageContext.request.contextPath}../../../images/17.gif" style="width: 100%; height: 100%" alt="">
+            <img src="${pageContext.request.contextPath}../../../images/17.gif" style="width: 100%; height: 100%"
+                 alt="">
             <span id="all_usr_count" style="vertical-align:bottom">${dto.getInFront()}</span>
         </td>
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/18.gif" style="width: 100%; height: 100%" alt="">
+            <img src="${pageContext.request.contextPath}../../../images/18.gif" style="width: 100%; height: 100%"
+                 alt="">
         </td>
     </tr>
 
     <tr>
         <td colspan="5" width="100%" align="center" style="padding-bottom: 30px">
-            <img src="${pageContext.request.contextPath}../../../images/green.png" width="150" height="150" alt="">
 
-            <img src="${pageContext.request.contextPath}../../../images/yellow.png" width="150" height="150" alt="">
+            <a href="/feedback"><img src="${pageContext.request.contextPath}../../../images/green.png" width="150"
+                                     height="150" alt=""></a>
 
-            <img src="${pageContext.request.contextPath}../../../images/red.png" width="150" height="150" alt="">
+            <a href="/feedback"><img src="${pageContext.request.contextPath}../../../images/yellow.png" width="150"
+                                     height="150" alt=""></a>
+
+            <a href="/feedback"><img src="${pageContext.request.contextPath}../../../images/red.png" width="150"
+                                     height="150" alt=""></a>
         </td>
 
     </tr>
