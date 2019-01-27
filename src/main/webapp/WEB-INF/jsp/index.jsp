@@ -135,19 +135,19 @@
     </tr>
     <tr>
         <td colspan="3">
-            <img src="${pageContext.request.contextPath}../../../images/18.gif" style="width: 100%; height: 100%" alt=""></td>
+            <img src="${pageContext.request.contextPath}../../../images/18.gif" style="width: 100%; height: 100%" alt="">
+        </td>
     </tr>
+
     <tr>
-        <td>
-            <img src="${pageContext.request.contextPath}../../../images/spacer.gif" width="28" height="1" alt=""></td>
-        <td>
-            <img src="${pageContext.request.contextPath}../../../images/spacer.gif" width="10" height="1" alt=""></td>
-        <td>
-            <img src="${pageContext.request.contextPath}../../../images/spacer.gif" width="437" height="1" alt=""></td>
-        <td>
-            <img src="${pageContext.request.contextPath}../../../images/spacer.gif" width="10" height="1" alt=""></td>
-        <td>
-            <img src="${pageContext.request.contextPath}../../../images/spacer.gif" width="27" height="1" alt=""></td>
+        <td colspan="5" width="100%" align="center" style="padding-bottom: 30px">
+            <img src="${pageContext.request.contextPath}../../../images/green.png" width="150" height="150" alt="">
+
+            <img src="${pageContext.request.contextPath}../../../images/yellow.png" width="150" height="150" alt="">
+
+            <img src="${pageContext.request.contextPath}../../../images/red.png" width="150" height="150" alt="">
+        </td>
+
     </tr>
 </table>
 <!-- End Save for Web Slices -->
