@@ -38,4 +38,10 @@ public class ItemService {
 
         return dataUserDTO;
     }
+
+    public void demoMethod(int id) {
+        Item item = itemRepository.findById(id);
+        item.setCodeStatus(0);
+        itemRepository.save(item);
+    }
 }

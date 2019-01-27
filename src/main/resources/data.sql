@@ -1,9 +1,9 @@
 create database example;
-use example;
-drop table if exists queue;
-drop table if exists averagetimeout;
+use `example`;
+drop table if exists `queue`;
+drop table if exists `averagetimeout`;
 
-CREATE TABLE averagetimeout (
+CREATE TABLE `averagetimeout` (
                               id int(11) NOT NULL AUTO_INCREMENT,
                                 servicecode int(11) NOT NULL,
                                 averagetime int(11) NOT NULL,
@@ -28,7 +28,7 @@ INSERT INTO `averagetimeout` VALUES (3,3,6);
 INSERT INTO `averagetimeout` VALUES (4,4,3);
 INSERT INTO `averagetimeout` VALUES (5,5,4);
 
-INSERT INTO `queue` VALUES (1,1,13370,'A',153,'2019-01-26 14:49:16',0);
+INSERT INTO `queue` VALUES (1,1,13370,'A',153,'2019-01-26 14:49:16',1);
 INSERT INTO `queue` VALUES (2,1,13370,'A',154,'2019-01-26 14:51:10',1);
 INSERT INTO `queue` VALUES (3,3,13370,'C',75,'2019-01-26 14:52:14',1);
 INSERT INTO `queue` VALUES (4,2,13370,'B',27,'2019-01-26 14:56:26',1);
@@ -43,3 +43,13 @@ INSERT INTO `queue` VALUES (12,3,13370,'C',77,'2019-01-26 15:15:48',1);
 INSERT INTO `queue` VALUES (13,2,13370,'B',29,'2019-01-26 15:16:11',1);
 INSERT INTO `queue` VALUES (14,4,13370,'D',16,'2019-01-26 15:19:33',1);
 INSERT INTO `queue` VALUES (15,1,13370,'A',157,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (16,1,13370,'A',158,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (17,1,13370,'A',159,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (18,1,13370,'A',160,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (19,1,13370,'A',161,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (20,1,13370,'A',162,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (21,1,13370,'A',163,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (22,1,13370,'A',164,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (23,1,13370,'A',165,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (24,1,13370,'A',166,'2019-01-26 15:25:01',1);
+INSERT INTO `queue` VALUES (25,1,13370,'A',167,'2019-01-26 15:25:01',1);

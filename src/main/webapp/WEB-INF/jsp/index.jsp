@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" http-equiv="Refresh" content="5">
     <title>WebQueue</title>
     <style>
         .talon_no span {
