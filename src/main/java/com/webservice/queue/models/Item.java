@@ -14,7 +14,7 @@ public class Item {
     private int id;
 
     @OneToOne(optional = false, cascade = CascadeType.ALL)
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "averagetimeoutid")
     private AverageTimeout averageTimeout;
 
     @Column(name = "departmentcode")

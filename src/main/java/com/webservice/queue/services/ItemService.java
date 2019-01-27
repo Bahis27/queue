@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class ItemService {
@@ -19,9 +20,17 @@ public class ItemService {
 
         List<Item> items = itemRepository
                 .findByDepartmentCodeAndOperationIndexAndCodeStatusOrderByQueueNo(departmentCode, operationIndex, codeStatus);
-        Item itemWithSpecQueueNumber = items.stream().filter(s -> s.getQueueNo() == queueNo).findFirst().get();
+        Item itemWithSpecQueueNumber = items
+                .stream()
+                .filter(s -> s.getQueueNo() == queueNo)
+                .findFirst().get();
 
-        dataUserDTO.setInFront(items.size() - 1);
+        //404
+
+        dataUserDTO.setInFront(items
+                .stream()
+                .filter(s-> s.getQueueNo() < queueNo)
+                .collect(Collectors.toList()).size());
         dataUserDTO.setJoinTime(itemWithSpecQueueNumber.getJoinTime());
         dataUserDTO.setAverageTime(itemWithSpecQueueNumber.getAverageTimeout().getAverageTime());
         dataUserDTO.setTalonCode(itemWithSpecQueueNumber.getOperationIndex());
